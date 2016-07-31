@@ -4,19 +4,23 @@
 }
 
 body {
-	font-size: 24px;
-	line-height: 32px;
-	color: #333;
+	margin: 0;
+  	height:100%;
+    width: 100%;
+    background-image: url("../images/background.gif");
+    background-repeat: repeat;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 header {
-	background: #ccc;
+	background: #FFFFFF;
 	padding: 20px;
 	margin-bottom: 20px;
 	color: #333;
 }
 
 footer {
+	height: 50px;
 	background: #ccc;
 	padding: 20px;
 	clear: both;
@@ -28,9 +32,8 @@ aside {
 	width: 33%;
 	margin-left: 30px;
 	padding: 20px;
-	height: 200px;
-	background: #fff;
-	border: 1px solid #eee;
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
 }
 
 
@@ -46,15 +49,15 @@ h4 {
 #main {
 	float: left;
 	width: 33.3%;
+	padding: 20px;
+	margin-left: 50px;
 	background: #FFFFFF;
-	color: #fff;
 }
 
 #connect {
 	float: left;
 	width: 33.3%;
 	background: #FFFFFF;
-	color: #fff;
 }
 
 .highlight {
