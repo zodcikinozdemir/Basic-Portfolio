@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  text-align: center;
 }
 
 body {
@@ -9,19 +8,18 @@ body {
     width: 100%;
     background-image: url("../images/background.gif");
     background-repeat: repeat;
-    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 header {
+	height: 75px;
 	background: #FFFFFF;
 	padding: 20px;
 	margin-bottom: 20px;
-	color: #333;
 }
 
 footer {
 	height: 50px;
-	background: #ccc;
+	background: #666666;
 	padding: 20px;
 	clear: both;
 	text-align: center;
@@ -56,11 +54,58 @@ h4 {
 
 #connect {
 	float: left;
-	width: 33.3%;
+	width: 175px;
 	background: #FFFFFF;
+}
+
+#full {
+	clear: both;
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 50px;
+	overflow: auto;
+}
+
+#name {
+	float: left;
+	width: 33.3%;
+	margin-left: 50px;
+	padding: 20px;
+	background: #4aaaa5;
+	color: #FFFFFF;
+}
+
+#menu {
+	float: right;
+	width: 33.3%;
 }
 
 .highlight {
    color:#4aaaa5;
    background-color: #FFFFFF;
+}
+
+form {
+	width:459px;
+	margin:0 auto;
+}
+
+label {
+	display:block;
+	margin-top:20px;
+}
+
+input:focus, textarea:focus {
+		border:1px solid #97d6eb;
+}
+
+textarea {
+	height:213px;
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+
+#submit {
+	background:#4aaaa5;
+	color: #FFFFFF;
 }
