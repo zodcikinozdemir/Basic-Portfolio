@@ -124,7 +124,31 @@ textarea {
 	color: #FFFFFF;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+
+li {
+    float: left;
+}
+li a{
+	text-align: center;
+    padding: 14px 16px;
+}
+
 a:link { color: black; }
 a:visited { color: gray; }
 a:hover { color: pink; }
-a:active { color: yellow; }
+a:hover:not(.active) {
+    background-color: #111;
+}
+a:active { 
+    background-color: #111;
+	color: yellow; 
+}
+.active {
+	background-color: #4aaaa5;
+}
